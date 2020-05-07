@@ -72,11 +72,12 @@ h4{
   }
 
 
-@media only screen and (min-width: 676px) {
-  div.small-container {
-  width: 680px;
-    }
+@media only screen and (min-width: 576px) {
+  div.small-container{
+  width: 780px;
+  list-style: none;
   }
+
 
 /* Navbar */
 
@@ -100,7 +101,7 @@ h4{
   display: flex;
   justify-content: space-between;
   position:relative;
-  padding: 3vh 0 3vh 4vw;
+
   width: 100%;
   font-size: 20px;
 }
@@ -177,12 +178,6 @@ footer{
   justify-content:space-around;
 }
 
-
-@media only screen and (min-width: 576px) {
-  div.small-container{
-  width: 780px;
-  list-style: none;
-  }
 
 
 .lead{
