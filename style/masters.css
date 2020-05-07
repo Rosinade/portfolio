@@ -3,7 +3,7 @@
 /* All pages */
 
 body {
-font-family:'Raleway', sans-serif;
+font-family:'Open Sans', sans-serif;
 display:block;
 text-align: left;
 
@@ -15,7 +15,7 @@ a{
   color:#212529;
   text-decoration-color: #ffd8e2;
   text-decoration:none;
-  text-align: center;
+
 }
 
 ul{
@@ -34,7 +34,8 @@ p{
 }
 
 h1{
-  font-family:"Merriweather",serif;
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
   color: #f93700;
   margin-bottom: 25px;
   margin-top:25px;
@@ -63,20 +64,20 @@ h4{
   margin-top:25px;
 }
 
-@media only screen and (min-width: 576px) {
+/*@media only screen and (min-width: 576px) {
   video{
   width: 600px;
   list-style: none;
   margin-top: 25px;
   margin-bottom: 25px;
-  }
+  }*/
 
 
-@media only screen and (min-width: 576px) {
+/*@media only screen and (min-width: 576px) {
   div.small-container{
   width: 780px;
   list-style: none;
-  }
+  }*/
 
 
 /* Navbar */
@@ -101,7 +102,6 @@ h4{
   display: flex;
   justify-content: space-between;
   position:relative;
-
   width: 100%;
   font-size: 20px;
 }
@@ -163,7 +163,7 @@ footer{
 /* Homepage */
 .big-title-2{
   font-size: 5em;
-  font-family: "Merriweather", serif;
+  font-family: 'Playfair Display', serif;
   text-align: center;
   color: #f93700;
 }
@@ -181,7 +181,7 @@ footer{
 
 
 .lead{
-  font-family: 'Merriweather', sans-serif;
+font-family: 'Playfair Display', serif;
 }
 
 .row{
@@ -223,43 +223,38 @@ a:hover{
 /* About page */
 
 
-.about-me{
-  padding-top:10px;
-}
-
 
 .about-jumbotron{
   background-color: #edece9;
-  padding-top: 100px;
+  padding-top: 150px;
+  margin-left: auto;
+  margin-right: auto;
 
-}
-
-.about-anima{
-  background: #edece9;
-  height: auto;
-  padding-bottom: 0;
 }
 
 .big-title{
   font-size: 5em;
-  font-family: "Merriweather", serif;
+  font-family: 'Playfair Display', serif;
   text-align: center;
   color: #212529;
 }
 
-
-.link-underline{
-  color: #f93700;
-  font-size: 1.6em;
-  padding: 20px;
+.container{
   text-align: center;
+}
 
+.mail{
+  color: #f93700;
+  font-size: 1.3em;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Project pages */
 .quote{
   font-size: 2em;
-  font-family: "Merriweather",serif;
+  font-family: 'Playfair Display', serif;
 }
 
 .profile{
