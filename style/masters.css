@@ -2,12 +2,13 @@
 
 /* All pages */
 
-body {
-font-family:'Open Sans', sans-serif;
-display:block;
-text-align: left;
 
-color: #3F3F3F;
+
+body {
+  font-family: 'Rubik', sans-serif;
+  display:block;
+  text-align:left;
+  color: #3F3F3F;
 }
 
 
@@ -15,13 +16,13 @@ a{
   color:#212529;
   text-decoration-color: #ffd8e2;
   text-decoration:none;
-
 }
 
 ul{
   margin-bottom: 25px;
   margin-top: 25px;
 }
+
 li{
   margin-bottom: 10px;
   margin-top: 10px;
@@ -34,7 +35,7 @@ p{
 }
 
 h1{
-  font-family: 'Playfair Display', serif;
+  font-family: 'Marcellus', serif;
   font-size: 25px;
   color: #f93700;
   margin-bottom: 25px;
@@ -42,7 +43,7 @@ h1{
 }
 
 .display-4{
-  font-family: 'Playfair Display', serif;
+  font-family: 'Marcellus', serif;
 }
 
 h3{
@@ -97,6 +98,7 @@ h4{
 
 .bg-light{
     justify-content: space-between;
+    height: 90px;
 }
 .navbar-brand{
   margin:20px;
@@ -148,15 +150,14 @@ h4{
 
 /* Footer */
 footer{
-    text-align:center;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    width:100%;
-
-    border-color: #212529;
-    display:inline-block;
-    font-size:13px;
-    background-color: #212529;
+  text-align:center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width:100%;
+  border-color: #212529;
+  display:inline-block;
+  font-size:13px;
+  background-color: #212529;
 }
 
 .text-footer{
@@ -167,25 +168,24 @@ footer{
 /* Homepage */
 .big-title-2{
   font-size: 5em;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Marcellus', serif;
   text-align: center;
   color: #f93700;
 }
 
 .jumbotron{
-  padding-bottom: 50px;
-  padding-top:200px;
+  /*padding-bottom: 50px;
+  padding-top:200px;*/
   background-color: #edece9;
   text-align:center;
   height: auto+10px;
+  padding-top: 50px;
   margin-bottom: 50px;
   justify-content:space-around;
 }
 
-
-
 .lead{
-font-family: 'Playfair Display', serif;
+font-family: 'Marcellus', serif;
 }
 
 .row{
@@ -193,6 +193,8 @@ font-family: 'Playfair Display', serif;
   padding-bottom:30px;
   background-size:cover;
 }
+
+
 
 /* hover card homepage */
 
@@ -210,7 +212,7 @@ a:hover{
   background: white;
   box-shadow: 0px 0px 0px grey;
   -webkit-transition:  box-shadow .6s ease-out;
-     box-shadow: .8px .9px 3px grey;
+  box-shadow: .8px .9px 3px grey;
 }
 
 .card-index-body{
@@ -227,7 +229,6 @@ a:hover{
 /* About page */
 
 
-
 .about-jumbotron{
   background-color: #edece9;
   padding-top: 150px;
@@ -238,13 +239,15 @@ a:hover{
 
 .big-title{
   font-size: 5em;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Marcellus', serif;
   text-align: center;
   color: #212529;
 }
 
-.container{
-  text-align: center;
+.row-article{
+  text-align: left;
+  font-size: 16px;
+
 }
 
 .mail{
@@ -258,7 +261,7 @@ a:hover{
 /* Project pages */
 .quote{
   font-size: 2em;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Marcellus', serif;
 }
 
 .profile{
@@ -289,6 +292,8 @@ a:hover{
 article.container{
   width: 890px;
 }
+
+
 
 /* Work page */
 
